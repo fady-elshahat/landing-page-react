@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1220px;
+}
+
+.App {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1800px;
+  overflow-x: hidden;
+}
+
+.header {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.header .titel-header {
+  font-size: 68px;
+  font-weight: bold;
+  margin: 55px auto 30px;
+  color: #303C57;
+  line-height: 60px;
+}
+
+.header .titel-header .custem {
+  color: #7DE596;
+}
+
+.header .desc-header {
+  color: #1D2844;
+  font-size: 44px;
+  font-weight: 500;
+  margin: 10px 0;
+  line-height: 44px;
+}
+
+.header p {
+  color: #303C57;
+  font-size: 28px;
+  margin: 0;
+  line-height: 33px;
+  margin-bottom: 57px;
+  font-weight: 300;
+}
+
+.footer-header p {
+  background-color: #556EBF;
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  padding: 23px 0;
+  line-height: 38px;
+  font-weight: 500;
+}
+
+.icon {
+  position: absolute;
+  top: -55px;
+  left: -209px;
+  z-index: -13;
+}
+
+.sign-up .titel {
+  font-size: 80px;
+  margin: 110px 0 40px 0;
+  color: #1D2844;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.sign-up span {
+  color: #42A2DA;
+}
+
+
+.sign-up .sign-up-form {
+  text-align: left;
+  border: 4px solid #42A2DA;
+  border-radius: 10px;
+  padding: 30px 40px;
+  box-shadow: 0px 63px 94px -14px rgba(66, 162, 218, 0.58);
+  -webkit-box-shadow: 0px 63px 94px -14px rgba(66, 162, 218, 0.58);
+  -moz-box-shadow: 0px 63px 94px -14px rgba(66, 162, 218, 0.58);
+}
+
+.sign-up .sign-up-form input {
+  width: 430px;
+  margin: 45px auto;
+  border: 0;
+  border-bottom: 1px solid #42A2DA;
+  padding-left: 0;
+}
+
+.sign-up .sign-up-form input:focus {
+  box-shadow: none;
+}
+
+.sign-up .sign-up-form p {
+  font-size: 44px;
+  text-align: center;
+  color: #42A2DA;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.sign-up .sign-up-form input::placeholder {
+  color: #1D2844;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.sign-up-form .btn-sub {
+  background-color: #42A2DA;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  border: 0;
+  width: 90%;
+  margin-top: 30px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 44px;
+  height: 60px;
+}
+
+.sign-up-form .btn-sub:hover {
+  background-color: #42A2DA;
+}
+
+.sign-up-form .btn-sub:focus {
+  box-shadow: none;
+}
+
+.sign-up .content {
+  text-align: left;
+
+}
+
+.sign-up .content .desc {
+  font-size: 44px;
+  margin: 0;
+  width: 80%;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.sign-up .content .desc1 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 38px;
+  color: #1D2844;
+  font-weight: 300;
+}
+
+.sign-up .content .btns {
+  margin-right: 10px;
+}
+
+.sign-up .content .btns>p {
+  font-size: 28px;
+  line-height: 38px;
+  color: #1D2844;
+  margin-bottom: 0;
+}
+
+.sign-up .content .btns>div {
+  display: block;
+  color: #fff;
+  background-color: #70C77A;
+  margin: 10px 0;
+  border: 0;
+  padding: 20px 0;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.sign-up .imges {
+  position: relative;
+  z-index: -1;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.sign-up .container {
+  background-color: #fff;
+  z-index: 33;
+}
+
+.sign-up .imges img {
+  display: block;
+  position: absolute;
+  right: -240px;
+
+}
+
+.about {
+  position: relative;
+}
+
+.about .back {
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.about .container {
+  margin-top: 100px;
+}
+
+.about .desc-about {
+  font-size: 44px;
+  text-align: center;
+  color: #303C57;
+  font-weight: 400;
+  line-height: 48px;
+  margin: 0 auto;
+  width: 90%;
+
+}
+
+.about .container .one {
+  color: #70C77A;
+}
+
+.about .container .two {
+  color: #42A2DA;
+}
+
+.card-about.first {
+  position: relative;
+  width: 850px;
+  margin-top: 200px;
+  font-size: 44px;
+  border: 4px solid #42A2DA;
+  padding: 15px;
+  border-radius: 20px;
+  text-align: left;
+  box-shadow: 2px 46px 62px -34px rgba(66, 162, 218, 1);
+  -webkit-box-shadow: 2px 46px 62px -34px rgba(66, 162, 218, 1);
+  -moz-box-shadow: 2px 46px 62px -34px rgba(66, 162, 218, 1);
+  background-color: #fff;
+  margin-left: 60px;
+}
+
+.card-about.seconed {
+  position: relative;
+  width: 850px;
+  margin-left: auto;
+  margin-top: 257px;
+  font-size: 44px;
+  border: 4px solid #70C77A;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: left;
+  box-shadow: -9px 47px 18px -11px rgba(125, 229, 150, 0.49);
+  -webkit-box-shadow: -9px 47px 18px -11px rgba(125, 229, 150, 0.49);
+  -moz-box-shadow: -9px 47px 18px -11px rgba(125, 229, 150, 0.49);
+  background-color: #fff;
+  margin-right: 60px;
+  border-radius: 20px;
+
+}
+
+.card-about.first img {
+  position: absolute;
+  right: -319px;
+  top: -348px;
+}
+
+.card-about.seconed img {
+  position: absolute;
+  bottom: -4px;
+  left: -530px;
+}
+
+.card-about.seconed .desc-card {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.card-about .desc-card {
+  width: 77%;
+  margin-right: auto;
+  line-height: 48px;
+  margin-left: 30px;
+  color: #1D2844;
+  font-size: 44px;
+}
+
+.quiz {
+  margin: 0 auto;
+  text-align: left;
+
+}
+
+.quiz-container {
+  background-color: #42A2DA;
+  margin-top: 200px;
+  position: relative;
+  z-index: 22;
+  padding: 40px 0;
+}
+
+.quiz .content-quiz .desc {
+  font-size: 44px;
+  text-align: left;
+  line-height: 48px;
+  color: #fff;
+}
+
+.quiz .content-quiz button {
+  background-color: #1D2844;
+  color: #fff;
+  border: 0;
+  text-align: left;
+  font-size: 28px;
+  line-height: 44px;
+  height: 60px;
+  width: 259px;
+  font-weight: 400;
+}
+
+.about-chroni-container {
+  background-color: #1D2844;
+  padding: 20px 0;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+
+}
+
+.about-chroni-container .about-chroni {
+  text-align: left;
+  padding: 50px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.about-chroni-container .about-chroni .titel {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.about-chroni-container .about-chroni p {
+  font-size: 24px;
+  margin-bottom: 30px;
+  line-height: 28px;
+}
+
+.about-chroni-container .about-chroni img {
+  display: block;
+  margin: 0 auto;
+}
+
+.about-chroni-container .back {
+  position: absolute;
+  z-index: 0;
+  opacity: 40%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-47%, -62%);
+}
+
+.about-chroni-container .back2 {
+  position: absolute;
+  left: -55%;
+  bottom: -19%;
+  z-index: -2;
+}
+
+
+
+.about-chroni .one {
+  color: #7DE596;
+}
+
+
+
+.footer-sgin-up {
+  background-color: #556EBF;
+  padding: 30px 0;
+  text-align: center;
+  position: relative;
+}
+
+.footer-sgin-up p {
+  margin: 0 auto;
+  font-size: 45px;
+  color: #fff;
+  padding: 20px 0;
+  width: 80%;
+}
+
+.footer-sgin-up span {
+  color: #70C77A;
+}
+
+.footer-sgin-up button {
+  border: 0;
+  background-color: #70C77A;
+  color: #fff;
+  font-size: 28px;
+  width: 389px;
+  padding: 25px 0;
+  height: 60px;
+  line-height: 44px;
+  font-weight: 500;
+}
+
+.footer-sgin-up button:hover {
+  background-color: #7DE596;
+}
+
+.footer {
+  background-color: #1D2844;
+  padding: 20px 0;
+}
+
+.footer p {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.footer p span {
+  text-decoration: underline;
+  color: #70C77A;
+}
+
+@media only screen and (max-width: 600px) {
+  .header .titel-header {
+    font-size: 45px;
+    margin: 30px 0;
+  }
+
+  .header .desc-header {
+    font-size: 25px;
+    padding: 0 10px;
+  }
+
+  .header p {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+
+  .footer-header p {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .sign-up .titel {
+    font-size: 45px;
+    margin-top: 30px;
+  }
+
+  .sign-up .content .btns>div {
+    width: 100%;
+  }
+
+  .sign-up .content .btns {
+    margin: 0 10px;
+  }
+
+  .sign-up .content .desc {
+    font-size: 33px;
+    width: 100%;
+  }
+
+  .sign-up .sign-up-form {
+    margin-top: 20px;
+    padding: 20px 30px;
+  }
+
+  .about .desc-about {
+    font-size: 35px;
+  }
+
+  .sign-up .sign-up-form input {
+    width: 300px;
+  }
+
+  .about-container .about .desc-about {
+    font-size: 35px;
+    padding: 0 10px;
+  }
+
+  .card-about.first, .card-about.seconed {
+    position: relative;
+    width: 93%;
+    margin-top: 193px;
+    font-size: 20px;
+    margin-left: 0;
+    padding: 5px;
+    text-align: center;
+    margin: 193px auto 0;
+  }
+
+  .card-about .desc-card {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .quiz-container {
+    margin-top: 60px;
+  }
+
+  .card-about.first img {
+    position: absolute;
+    right: 0;
+    width: 260px;
+    top: -275px;
+  }
+
+  .card-about.seconed img {
+    width: 260px;
+    position: absolute;
+    left: -79px;
+    bottom: 268px;
+  }
+
+  .about-chroni-container .back {
+    top: 6%;
+    position: absolute;
+    z-index: 0;
+    opacity: 40%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-48%, -27%);
+  }
+
+  .footer-sgin-up p {
+    font-size: 30px;
+    padding: 15px 0;
+    width: 100%;
+
+  }
+
+  .quiz .content-quiz .desc {
+    font-size: 30px;
+  }
+
+  .content-quiz {
+    padding: 0 15px;
+  }
+
+  .about-chroni-container .about-chroni {
+    padding: 0;
+  }
+
+  .about-chroni-container .about-chroni .titel {
+    font-size: 35px;
+    padding: 0 15px;
+  }
+
+  .about-chroni-container .about-chroni p {
+    font-size: 20px;
+    padding: 0 15px;
+  }
+
+  .footer-sgin-up {
+    font-size: 24px;
+  }
+
+  .footer p {
+    font-size: 20px;
+  }
+
+  .about-chroni img {
+    width: 100%;
+  }
+}
