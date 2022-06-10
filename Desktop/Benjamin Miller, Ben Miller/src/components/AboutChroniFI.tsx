@@ -1,7 +1,7 @@
 import { Box, Flex } from "@chakra-ui/core";
-import backg from './assets/img/Ellipse 8.svg'
-import img2 from "./assets/img/Group 104.svg"
-import img1 from "./assets/img/dash-total.svg"
+import backg from './assets/img/Ellipse 8.png'
+import img2 from "./assets/img/Group 104.png"
+import img1 from "./assets/img/dash-total.png"
 import img3 from "./assets/img/Cronifi-logo-01.png"
 
 function AboutChroni() {

@@ -1,5 +1,5 @@
 import { Flex } from "@chakra-ui/core";
-import background from "./assets/img/Group 80.svg";
+import background from "./assets/img/Group 80.png";
 import oneImg from "./assets/img/ben2.png";
 import twoImg from "./assets/img/tiffany copy 3.png";
 

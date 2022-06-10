@@ -1,5 +1,5 @@
 import { Flex } from "@chakra-ui/core";
-import icon from './assets/img/header.svg'
+import icon from './assets/img/header.png'
 function Header() {
      return (
           <div className="header">

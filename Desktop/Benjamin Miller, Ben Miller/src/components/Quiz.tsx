@@ -1,5 +1,5 @@
 import { Flex , Button } from "@chakra-ui/core";
-import img from './assets/img/Cronifi-01.svg'
+import img from './assets/img/Cronifi-01.png'
 function Quiz(){
      return (
           <div className="quiz-container">
